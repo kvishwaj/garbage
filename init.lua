@@ -74,7 +74,7 @@ vim.keymap.set('t', '<Esc>', '<C-\\><C-n>', { desc = 'Exit Terminal Mode' })
 -- If they do not work, enable "Alt sends Escape" or use Kitty/WezTerm.
 vim.keymap.set({ 't', 'i' }, '<A-h>', '<C-\\><C-n><C-w>h')
 vim.keymap.set({ 't', 'i' }, '<A-j>', '<C-\\><C-n><C-w>j')
-vim.keymap.set({ 't', 'i' }, '<A-k>', '<C-\\><C-n><C-w>k')q
+vim.keymap.set({ 't', 'i' }, '<A-k>', '<C-\\><C-n><C-w>k')
 vim.keymap.set({ 't', 'i' }, '<A-l>', '<C-\\><C-n><C-w>l')
 
 vim.keymap.set('n', '<A-h>', '<C-w>h', { desc = 'Window Left' })
